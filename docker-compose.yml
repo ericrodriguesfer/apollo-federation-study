@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  database:
+    container_name: 'database-graphql-with-sequelize-study'
+    build: 
+      context: ./postgres
+      dockerfile: Dockerfile
+    environment:
+      - POSTGRES_USER=${SEQUELIZE_USER}
+      - POSTGRES_PASSWORD=${SEQUELIZE_PASS}
+      - POSTGRES_DB=${SEQUELIZE_DATABASE}
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    restart: always
+    networks:
+      - graphql-with-sequelize-study
+
+networks:
+  graphql-with-sequelize-study:
+    driver: bridge
