@@ -107,7 +107,7 @@ Após rodar um desses comandos de sua preferência, a api irá subir caso tudo t
 
 # Segue abaixo o esquema de funcionamento/execução do projeto do estudo
 
-
+![Sem título-2023-02-11-2345](https://user-images.githubusercontent.com/42814556/219825147-c0e41118-78ac-4667-b36e-352657dae2fa.png)
 
 # Tecnologias e Boas práticas utilizadas
 * NodeJs
