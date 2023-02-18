@@ -36,7 +36,7 @@ Após os passos inicias de clone do projeto, ao acessar o projeto, logo na raiz 
 docker-compose up -d
 ```
 
-Em seu terminal para o Docker subir o serviço do banco de dados.
+Em seu terminal para o Docker subir o serviço do banco de dados. **Importante observar que nesse caso, o banco sempre estará rodando na porta 5432, caso não seja alterado nada no arquivo *docker-compose*.**
 
 Feito isso, acesse a API 01 ou melhor dizendo [student-list](https://github.com/ericrodriguesfer/apollo-federation-study/tree/master/student-list), instale as dependências do projeto como preferir, tanto via npm quanto yarn, da seguinte forma:
 
