@@ -105,6 +105,9 @@ yarn dev
 ```
 Após rodar um desses comandos de sua preferência, a api irá subir caso tudo tenha dado e sido configurado corretamente, e ela vai expor no console/terminal onde/url ela está sendo executada, mas digo que por padrão ela roda nessa url: http://localhost:4000/graphql, e a acessando você pode-rá acessar o recursos das outras duas unicamente por ela, sem necessáriamente as conhecer, tanto schemas, quanto querys, mutations e o que mais tiverem.
 
+# Segue abaixo o esquema de funcionamento/execução do projeto do estudo
+
+
 
 # Tecnologias e Boas práticas utilizadas
 * NodeJs
